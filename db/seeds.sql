@@ -4,7 +4,7 @@ VALUES  ("Sales"),
         ("Financial"), 
         ("Engineering"), 
         ("Human Resources"),
-        ("Training"),
+        ("Training");
 
 INSERT INTO role(title, salary, department_id)
 VALUES  ("Business Sales", 85000, 1), 
@@ -17,7 +17,7 @@ VALUES  ("Business Sales", 85000, 1),
         ("Employee HR Specialist", 70000, 5),
         ("Customer HR Specialist", 65000, 5),
         ("Product Trainer", 60000, 6),
-        ("Sales Trainer", 65000, 6),
+        ("Sales Trainer", 65000, 6);
 
 INSERT INTO employee(first_name, last_name, role_id, manager_id)
 VALUES  ('Thomas', 'Bumgardner', 1, null), 
@@ -29,5 +29,5 @@ VALUES  ('Thomas', 'Bumgardner', 1, null),
         ('Frank', 'Pierce', 7, null), 
         ('Andrew', 'Clay', 8, null), 
         ('Victoria', 'Jennings', 9, 5), 
-        ('Katherine', 'Avery', 10, null);
+        ('Katherine', 'Avery', 10, null),
         ('Michael', 'Franklin', 11, 6);
